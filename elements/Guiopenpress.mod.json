@@ -1,0 +1,12 @@
+{
+  "_fv": 66,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "PERIOD",
+    "keyBindingName": "RadTPA Open",
+    "keyBindingCategoryKey": "ui",
+    "onKeyPressed": {
+      "name": "OpenradtpOnKeyPressed"
+    }
+  }
+}

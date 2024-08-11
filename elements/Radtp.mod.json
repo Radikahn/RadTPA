@@ -1,0 +1,10 @@
+{
+  "_fv": 66,
+  "_type": "command",
+  "definition": {
+    "commandName": "radtphere",
+    "type": "STANDARD",
+    "permissionLevel": "No requirement",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"1335\" y=\"459\"><next><block type=\"entity\"><field name=\"name\">Player_Name</field><field name=\"type\">player</field><comment pinned=\"false\" h=\"65\" w=\"615\">Setting this argument to \"entities\" will allow the command to work with multiple entity selectors such as @a, @e and @p.</comment><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">Moveplayer</field></block></statement></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 209,
+    "height": 166,
+    "inventoryOffsetX": 2,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_x",
+          "text": "X",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "UiCloseLogic"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 284,
+          "y": 39
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "radtp.png",
+          "use1Xscale": false,
+          "x": 192,
+          "y": 45
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_allow_players_to_teleport_you_to",
+          "text": {
+            "fixedValue": "Allow players to teleport you to them via /radtphere"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 278,
+          "y": 108
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_allow",
+          "image": "allow.png",
+          "hoveredImage": "allow_hover.png",
+          "onClick": {
+            "name": "TpaLogicManager"
+          },
+          "x": 165,
+          "y": 108
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_block",
+          "image": "block.png",
+          "hoveredImage": "block_hover.png",
+          "onClick": {
+            "name": "TpaLogicDeny"
+          },
+          "x": 165,
+          "y": 135
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_check_tphere_status",
+          "text": "Check TpHere Status",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Returntpherestatus"
+          },
+          "width": 124,
+          "height": 20,
+          "x": 152,
+          "y": 165
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_exit_window",
+          "text": {
+            "fixedValue": "Exit Window"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 287,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "?"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 288,
+          "y": 115
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty1",
+          "text": {
+            "fixedValue": "?"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 288,
+          "y": 142
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_prevent_players_from_teleporting",
+          "text": {
+            "fixedValue": "Prevent players from teleporting you to them via /radtphere"
+          },
+          "width": 24,
+          "height": 24,
+          "x": 278,
+          "y": 136
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
